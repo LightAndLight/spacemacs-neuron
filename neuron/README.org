@@ -1,0 +1,64 @@
+#+TITLE: neuron layer
+# Document tags are separated with "|" char
+# The example below contains 2 tags: "layer" and "web service"
+# Avaliable tags are listed in <spacemacs_root>/.ci/spacedoc-cfg.edn
+# under ":spacetools.spacedoc.config/valid-tags" section.
+#+TAGS: layer|web service
+
+# The maximum height of the logo should be 200 pixels.
+[[img/neuron.png]]
+
+# TOC links should be GitHub style anchors.
+* Table of Contents                                        :TOC_4_gh:noexport:
+- [[#description][Description]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
+  - [[#general][General]]
+  - [[#editing][Editing]]
+  - [[#tags][Tags]]
+  - [[#links][Links]]
+
+* Description
+Adds support for =neuron-mode=.
+
+* Install
+1. =$ git clone https://github.com/lightandlight/spacemacs-neuron.git /path/to/layer=
+2. Edit =./~spacemacs=
+   1. Add ="/path/to/layer"= to the =dotspacemacs-configuration-layer-path= list
+   1. Add =neuron= to the =dotspacemacs-configuration-layers= list
+
+* Key bindings
+
+** General
+| Key Binding | Description                                                               |
+|-------------+---------------------------------------------------------------------------|
+| ~SPC m n~   | create new zettel                                                         |
+| ~SPC m r~   | regenerate the zettel cache and title overlays in all neuron-mode buffers |
+
+** Editing
+| Key Binding | Description                                                 |
+|-------------+-------------------------------------------------------------|
+| ~SPC m e e~ | select a zettel to edit by name                             |
+| ~SPC m e c~ | edit the zettelkasten's =neuron.dhall= file                 |
+| ~SPC m e t~ | select a zettel to edit, filtered by tag                    |
+| ~SPC m e u~ | select a zettel to edit from the current zettel's backlinks |
+
+** Tags
+| Key Binding | Description                                  |
+|-------------+----------------------------------------------|
+| ~SPC m t t~ | add a tag to the current zettel              |
+| ~SPC m t r~ | find and replace tags according to a pattern |
+| ~SPC m t s~ | add multiple tags to the current zettel      |
+
+** Links
+| Key Binding | Description                            |
+|-------------+----------------------------------------|
+| ~SPC m l l~ | link to a zettel                       |
+| ~SPC m l n~ | create a new zettel and link to it     |
+| ~SPC m l s~ | link to a file in the static directory |
+
+# Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
+# Examples:
+# [[https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#sessions]]
+# [[https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bfun/emoji/README.org][Link to Emoji layer README.org]]
+# If space-doc-mode is enabled, Spacemacs will open a local copy of the linked file.
