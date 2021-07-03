@@ -19,7 +19,7 @@
   - [[#links][Links]]
 
 * Description
-Adds support for =neuron-mode=.
+Adds support for [[https://github.com/felko/neuron-mode][neuron-mode]].
 
 * Install
 1. =$ git clone https://github.com/lightandlight/spacemacs-neuron.git /path/to/layer=
