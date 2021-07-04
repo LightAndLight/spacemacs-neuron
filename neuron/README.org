@@ -56,6 +56,7 @@ Adds support for [[https://github.com/felko/neuron-mode][neuron-mode]].
 | ~SPC m l l~ | link to a zettel                       |
 | ~SPC m l n~ | create a new zettel and link to it     |
 | ~SPC m l s~ | link to a file in the static directory |
+| ~SPC m l r~ | edit a link's text                     |
 
 # Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
 # Examples:

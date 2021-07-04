@@ -88,6 +88,7 @@ Each entry is either:
         "ll" 'neuron-insert-zettel-link
         "ln" 'neuron-insert-new-zettel
         "ls" 'neuron-insert-static-link
+        "lr" 'neuron-edit-link-text-at-point
         )
 
       (spacemacs/declare-prefix-for-mode 'neuron-mode "ms" "site")
