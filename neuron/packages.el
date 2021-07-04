@@ -78,6 +78,7 @@ Each entry is either:
       (spacemacs/declare-prefix-for-mode 'neuron-mode "me" "edit")
       (spacemacs/set-leader-keys-for-major-mode 'neuron-mode
         "ee" 'neuron-edit-zettel
+        "eb" 'neuron-edit-backlink
         "eu" 'neuron-edit-uplink
         "ec" 'neuron-edit-zettelkasten-configuration
         "et" 'neuron-query-tags

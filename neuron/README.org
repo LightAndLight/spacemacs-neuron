@@ -41,7 +41,8 @@ Adds support for [[https://github.com/felko/neuron-mode][neuron-mode]].
 | ~SPC m e e~ | select a zettel to edit by name                             |
 | ~SPC m e c~ | edit the zettelkasten's =neuron.dhall= file                 |
 | ~SPC m e t~ | select a zettel to edit, filtered by tag                    |
-| ~SPC m e u~ | select a zettel to edit from the current zettel's backlinks |
+| ~SPC m e b~ | select a zettel to edit from the current zettel's backlinks |
+| ~SPC m e u~ | select a zettel to edit from the current zettel's uplinks   |
 
 ** Tags
 | Key Binding | Description                                  |
