@@ -94,11 +94,11 @@ Each entry is either:
 
       (spacemacs/declare-prefix-for-mode 'neuron-mode "ms" "site")
       (spacemacs/set-leader-keys-for-major-mode 'neuron-mode
-        "ss" 'neuron-rib-serve
-        "sg" 'neuron-rib-generate
-        "sz" 'neuron-rib-open-z-index
-        "so" 'neuron-rib-open-zettel
-        "sk" 'neuron-rib-kill
+        "ss" 'neuron-gen-serve
+        "sg" 'neuron-gen-generate
+        "sz" 'neuron-gen-open-z-index
+        "so" 'neuron-gen-open-zettel
+        "sk" 'neuron-gen-kill
         )
       )
     )

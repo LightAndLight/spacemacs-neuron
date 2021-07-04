@@ -14,6 +14,7 @@
 - [[#install][Install]]
 - [[#key-bindings][Key bindings]]
   - [[#general][General]]
+  - [[#serving][Serving]]
   - [[#editing][Editing]]
   - [[#tags][Tags]]
   - [[#links][Links]]
@@ -34,6 +35,15 @@ Adds support for [[https://github.com/felko/neuron-mode][neuron-mode]].
 |-------------+---------------------------------------------------------------------------|
 | ~SPC m n~   | create new zettel                                                         |
 | ~SPC m r~   | regenerate the zettel cache and title overlays in all neuron-mode buffers |
+
+** Serving
+| Key Binding | Description                                 |
+|-------------+---------------------------------------------|
+| ~SPC m s s~ | start the neuron server on =localhost:8080= |
+| ~SPC m s z~ | open the z-index in your browser            |
+| ~SPC m s o~ | open a zettel in your browser               |
+| ~SPC m s k~ | kill the neuron server                      |
+| ~SPC m s g~ | generate the neuron static site             |
 
 ** Editing
 | Key Binding | Description                                                 |
